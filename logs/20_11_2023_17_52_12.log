@@ -1,0 +1,8 @@
+[2023-11-20 17:52:13,402] 22 root - INFO - Data Ingestion started
+[2023-11-20 17:52:13,449] 29 root - INFO - Read the data Collection(Database(MongoClient(host=['ac-8vyitl7-shard-00-02.mw0ewjh.mongodb.net:27017', 'ac-8vyitl7-shard-00-01.mw0ewjh.mongodb.net:27017', 'ac-8vyitl7-shard-00-00.mw0ewjh.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, authsource='admin', replicaset='atlas-r460jm-shard-0', tls=True), 'Dataset'), 'Gemstone_Data') from MongoClient(host=['ac-8vyitl7-shard-00-02.mw0ewjh.mongodb.net:27017', 'ac-8vyitl7-shard-00-01.mw0ewjh.mongodb.net:27017', 'ac-8vyitl7-shard-00-00.mw0ewjh.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, authsource='admin', replicaset='atlas-r460jm-shard-0', tls=True) having database Database(MongoClient(host=['ac-8vyitl7-shard-00-02.mw0ewjh.mongodb.net:27017', 'ac-8vyitl7-shard-00-01.mw0ewjh.mongodb.net:27017', 'ac-8vyitl7-shard-00-00.mw0ewjh.mongodb.net:27017'], document_class=dict, tz_aware=False, connect=True, authsource='admin', replicaset='atlas-r460jm-shard-0', tls=True), 'Dataset')
+[2023-11-20 17:52:19,811] 36 root - INFO - Saved raw dataset in artifact folder
+[2023-11-20 17:52:19,811] 38 root - INFO - Split the data into train and test set
+[2023-11-20 17:52:19,842] 40 root - INFO - Train test split complete
+[2023-11-20 17:52:20,424] 43 root - INFO - Saved train dataset in artifact folder
+[2023-11-20 17:52:20,619] 45 root - INFO - Saved test dataset in artifact folder
+[2023-11-20 17:52:20,619] 47 root - INFO - Data Ingestion Complete!
